@@ -1,2 +1,3 @@
 # LearningADA
-For people who are learning ADA too.
+
+Programming missle systems to incinerate people who commit programming war crimes.
