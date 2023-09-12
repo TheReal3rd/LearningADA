@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/mnt/MainDisk/Programing/ADA/Learning/Hello World/helloworld.gpr
+20230912193948 9de6644b9f9c8780639177122b3e5189
+[BOUND OBJECT FILES]
+/mnt/MainDisk/Programing/ADA/Learning/Hello World/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/mnt/MainDisk/Programing/ADA/Learning/Hello World/obj/
+-L/mnt/MainDisk/Programing/ADA/Learning/Hello World/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/10/adalib/
+-shared
+-shared-libgcc
+-lgnat-10
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/10/adalib/
+/usr/lib
