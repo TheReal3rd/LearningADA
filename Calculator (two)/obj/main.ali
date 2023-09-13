@@ -1,0 +1,79 @@
+V "GNAT Lib v10"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		f885a785 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-inteio.ads		20230707070819 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-tiinio.ads		20230707070819 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D main.adb		20230913095449 449ae428 main%b
+D system.ads		20230707070819 4635ec04 system%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-imgint.ads		20230707070819 02dbe0c2 system.img_int%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 13 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 2r6 3r6 3r23 27r16 31r26
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|2w10 27r20
+X 4 a-ioexce.ads
+18K13*IO_Exceptions 30e22 12|1w10 31r30
+27X4*Data_Error 12|31r44
+X 7 a-textio.ads
+57K13*Text_IO 727e16 12|3w10 3r27
+273U14*Skip_Line 12|33s16 43s7 47s7
+481U14*Get_Line 12|45s7
+508U14*Put_Line 12|26s16 32s16 38s4 44s7 65s16 66s16 69s16
+X 8 a-tiinio.ads
+59U14*Get 12|27s36[3|18]
+X 12 main.adb
+13U11*Main 13b11 73l5 73t9
+14i4 num1{integer} 41m7 56r26 58r26 60r26 62r26
+15a4 symbol{string} 45m16 55r16 57r19 59r19 61r19
+16i4 num2{integer} 48m7 56r33 58r33 60r33 62r33
+17i4 len{integer} 45m24
+19V13 intinput{integer} 19b13 19>23 36l8 36t16 41s15 48s15
+19a23 message{string} 26r25
+24i16 returnvar{integer} 27m40 28r23
+31r18 error{2|57R9}
+51i10 result{integer} 56m16 58m16 60m16 62m16 69r39
+52b10 print{boolean} 54m13 64m16 68r16
+
