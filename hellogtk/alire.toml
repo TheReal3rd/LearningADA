@@ -1,0 +1,11 @@
+name = "hellogtk"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Third"]
+maintainers = ["Your Name <Third@third.net>"]
+maintainers-logins = ["TheReal3rd"]
+
+executables = ["hellogtk"]
+[[depends-on]]
+gtkada = "^23.0.0"
